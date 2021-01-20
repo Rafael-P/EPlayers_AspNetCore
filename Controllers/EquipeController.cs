@@ -36,7 +36,7 @@ namespace EPlayers_AspNetCore.Controllers
             {
                 //recebemos o arquivo que o usuario enviou e armazenamos na variavel file
                 var file   = form.Files[0];
-                var folder = Path.Combine( Directory.GetCurrentDirectory(), "wwwroot/img/" );
+                var folder = Path.Combine( Directory.GetCurrentDirectory(), "wwwroot/img/Equipes" );
 
                 if (!Directory.Exists(folder))
                 {
